@@ -4,14 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "ts-node index.ts"
+        "//": "ts-node index.ts",
+        "start": "node index.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@tensorflow/tfjs-node": "0.1.21",
-        "@tensorflow/tfjs-data": "0.1.4",
+        "@tensorflow/tfjs-node": "1.2.7",
         "global": "^4.3.2",
         "nodemon": "^1.17.5",
         "parcel": "^1.9.0",
